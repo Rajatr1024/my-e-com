@@ -13,6 +13,7 @@ import Orders from './pages/Orders'
 import Navbar from "./components/Navbar";
 import Footer from './components/Footer'
 import SearchBar from './components/SearchBar'
+import Verify from './pages/Verify'
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
         <Route path = '/Login' element = {<Login />} />
         <Route path = '/PlaceOrder' element = {<PlaceOrder />} />
         <Route path = '/Orders' element = {<Orders />} />
+        <Route path='/verify' element={<Verify />} />
       </Routes>
       <Footer />
     </div>
